@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Bai2
 {
-    internal class Program
+    internal class Person
     {
-        static void Main(string[] args)
-        {
+        protected string name;
 
-        }
+        public string Name { get => name; set => name = value; }
     }
 }

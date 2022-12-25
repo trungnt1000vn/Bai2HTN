@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Bai2
 {
-    internal class Program
+    internal class Teacher : Person
     {
-        static void Main(string[] args)
+        public Teacher()
         {
-
+        }
+        public Teacher(string name)
+        {
+            this.name = name;
         }
     }
 }
